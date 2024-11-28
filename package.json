@@ -1,18 +1,7 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.13.1"
-  },
-  "main": "hu.js",
+  "main": "index.js",
   "dependencies": {
     "ansi-styles": "^4.3.0",
     "argparse": "^2.0.1",
@@ -68,6 +57,7 @@
     "node-releases": "^2.0.18",
     "nullthrows": "^1.1.1",
     "ordered-binary": "^1.5.3",
+    "parcel": "^2.13.1",
     "parent-module": "^1.0.1",
     "parse-json": "^5.2.0",
     "picocolors": "^1.1.1",
@@ -93,5 +83,11 @@
     "utility-types": "^3.11.0",
     "weak-lru-cache": "^1.2.2"
   },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "description": ""
 }
