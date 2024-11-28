@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./static/bootstrap/bootstrap.4.6.min.css">
     <link rel="stylesheet" href="./static/css/init.css">
-    <link rel="stylesheet" href="./static/css/index.css">
     <title>南华论坛-首页</title>
 </head>
 
@@ -14,8 +13,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">南华论坛</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -28,8 +26,7 @@
                     </li>
                     <li class="nav-item ml-2">
                         <form class="form-inline my-2 my-lg-0" method="GET" action="#">
-                            <input class="form-control mr-sm-2" type="search" placeholder="关键字" aria-label="Search"
-                                name="q">
+                            <input class="form-control mr-sm-2" type="search" placeholder="关键字" aria-label="Search" name="q">
                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
                         </form>
                     </li>
@@ -49,21 +46,18 @@
         <div class="row" style="margin-top: 20px;">
             <div class="col"></div>
             <div class="col-10">
-                <ul class="question-ul">
-                    <li>
-                        <div class="side-question">
-                            <img class="side-question-avatar" src="./static/images/avatar.jpg" alt="">
-                        </div>
-                        <div class="question-main">
-                            <div class="question-title"><a href="detail.html">Web全栈开发学习心得</a></div>
-                            <div class="question-content">全栈开发是指掌握前端和后端...</div>
-                            <div class="question-detail">
-                                <span class="question-author">数据2202马超</span>
-                                <span class="question-time">2024年9月4日</span>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                <h1 style="text-align: center;">发布问答</h1>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <input type="text" name="title" class="form-control" placeholder="请输入标题">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="content" class="form-control" rows="10" placeholder="请输入内容"></textarea>
+                    </div>
+                    <div class="form-group" style="text-align: right;">
+                        <button class="btn btn-primary" id="serviceButton">发布</button>
+                    </div>
+                </form>
             </div>
             <div class="col"></div>
         </div>
